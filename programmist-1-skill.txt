@@ -1,0 +1,118 @@
+===
+https://testmatick.com/ru/ponyatie-tonkogo-i-tolstogo-klienta/
+ПОНЯТИЕ ТОНКОГО И ТОЛСТОГО КЛИЕНТА
+
+https://en.wikipedia.org/wiki/Rich_client
+https://ru.wikipedia.org/wiki/Толстый_клиент
+Толстый клиент
+
+===
+OWIN
+Для более глубокого понимания можно изучить официальную документацию по ASP.NET Core, 
+особенно разделы, 
+посвященные middleware и хостингу приложений.
+
+OWIN’s primary objective is to break the link between the server and the application, 
+allowing the server to better route incoming HTTP requests through the processing pipeline. 
+What problem does OWIN solve? 
+OWIN is nothing more than a set of rules. ОУИН - это не что иное, как набор правил
+At its core, OWIN based on the idea that you can build a framework for handling web requests 
+regardless of where they are hosted by using a few language constructs such as delegates 
+and dictionaries.
+
+https://www.dotnetstuffs.com/owin-asp-net-core/
+https://metanit.com/sharp/aspnet5/2.8.php
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/owin?view=aspnetcore-8.0
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0
+
+https://aspnetcore.readthedocs.io/en/stable/fundamentals/middleware.html
+https://aspnetcore.readthedocs.io/en/stable/fundamentals/index.html
+https://www.tektutorialshub.com/asp-net-core/asp-net-core-middleware-request-pipeline/
+https://webdevblog.ru/ispolzovanie-middleware-vo-vue/
+
+
+https://www.tektutorialshub.com/asp-net/asp-net-identity-tutorial-owin-setup/
+ASP.NET Identity Tutorial – OWIN Authentication Middleware
+
+https://www.c-sharpcorner.com/article/understanding-asp-net-part-one-owin-and-katana/
+Understanding ASP.NET - Part One - Owin And Katana
+
+How-To Create Katana Middleware
+https://codeopinion.com/how-to-create-owin-middleware/
+https://www.aaron-powell.com/posts/2012-03-15-owin-and-middleware/  2012
+
+ASP.NET: Understanding OWIN, Katana, and the Middleware Pipeline 2015
+https://www.codeproject.com/Articles/864725/ASP-NET-Understanding-OWIN-Katana-and-the-Middlewa
+
+https://metanit.com/sharp/aspnet5/2.8.php
+OWIN
+
+===
+Максим Шалаев | Ментор
+10:41
+Думаю данный фрагмент как раз ответит на этот вопрос:
+
+Причины использования тонких клиентов, несмотря на более ограниченную функциональность 
+по сравнению с толстыми клиентами:
+
+1. Управление централизовано:
+
+ Тонкие клиенты централизованно управляются и обслуживаются, что упрощает развертывание и обновление.
+ Все приложения и данные хранятся на центральном сервере, поэтому они всегда доступны и актуальны.
+
+2. Безопасность:
+
+ Централизованное хранение данных снижает риск потери или кражи данных, 
+ поскольку нет необходимости хранить их на каждом отдельном устройстве.
+ Тонкие клиенты часто используют протоколы удаленного доступа, такие как RDP и VNC, 
+ которые могут шифровать данные во время передачи.
+
+3. Стоимость:
+
+ Тонкие клиенты обычно дешевле в приобретении и развертывании, чем толстые клиенты, 
+ поскольку они не требуют высокопроизводительного оборудования.
+ Централизованная архитектура снижает затраты на техническое обслуживание, 
+ поскольку обновления и проблемы можно устранять централизованно.
+
+4. Энергоэффективность:
+
+ Тонкие клиенты потребляют значительно меньше энергии, чем толстые клиенты, 
+ что приводит к снижению затрат и меньшему воздействию на окружающую среду.
+
+5. Гибкость:
+
+ Тонкие клиенты можно легко перемещать и настраивать, 
+ что делает их идеальными для мобильных и  удаленных работников.
+ Они также могут использоваться с различными устройствами, такими как ноутбуки и планшеты, 
+ обеспечивая большую гибкость.
+
+6. Увеличение времени безотказной работы:
+
+ Централизованная архитектура и отсутствие движущихся частей в тонких клиентах снижают вероятность 
+ сбоев и продлевают время безотказной работы.
+
+7. Снижение совокупной стоимости владения (TCO):
+ Хотя тонкие клиенты могут иметь более ограниченную функциональность, 
+ их более низкая стоимость и простота обслуживания приводят к более низкой совокупной стоимости 
+ владения по сравнению с толстыми клиентами.
+
+Уменьшение функциональности, с другой стороны, может быть компенсировано за счет:
+ Использования облачных вычислительных сервисов
+ Удаленный доступ к более мощным серверам
+ Умной разработке приложений, оптимизированных для работы на тонких клиентах
+ 
+https://tonk.ru/library/article/raschet-realnoj-ekonomii-ot-ispolzovaniya-apparatnyh-tonkih-klientov-dlya-skeptikov 
+
+Приложение с тонким клиентом действительно всегда связано с веб-сервером. 
+Это одно из ключевых отличий тонкого клиента от толстого. 
+Тонкий клиент полагается на сервер для выполнения большинства функций и обработки данных, 
+тогда как толстый клиент выполняет большую часть задач локально на устройстве пользователя.
+
+===
+
+
+
+
+
+
+
