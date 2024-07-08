@@ -1,4 +1,4 @@
-
++
 https://testmatick.com/ru/ponyatie-tonkogo-i-tolstogo-klienta/
 ПОНЯТИЕ ТОНКОГО И ТОЛСТОГО КЛИЕНТА
 
@@ -58,6 +58,10 @@ https://ru.wikipedia.org/wiki/Толстый_клиент
  
 https://tonk.ru/library/article/raschet-realnoj-ekonomii-ot-ispolzovaniya-apparatnyh-tonkih-klientov-dlya-skeptikov 
 
+Приложение с тонким клиентом действительно всегда связано с веб-сервером. 
+Это одно из ключевых отличий тонкого клиента от толстого. 
+Тонкий клиент полагается на сервер для выполнения большинства функций и обработки данных, 
+тогда как толстый клиент выполняет большую часть задач локально на устройстве пользователя.
 
 
 
