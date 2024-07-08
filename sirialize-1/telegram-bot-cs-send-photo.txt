@@ -1,0 +1,46 @@
+
+https://www.cyberforum.ru/csharp-api/thread2675383.html
+
+string mypath= @"d:/Temp/myFile.png";
+using (var fileStream = new FileStream(mypath, FileMode.Open, FileAccess.Read, FileShare.Read))
+{
+   await _botService.Client.SendPhotoAsync(
+      chatId: message.Chat.Id,
+      photo: new InputOnlineFile(fileStream),
+      caption: "My Photo"
+   );
+}
+						
+===
+https://telegrambots.github.io/Telegram.Bot/html/2cc71df8-669e-3c6f-e8af-0ddad4ef7c57.htm
+
+https://github.com/TelegramBotsAPI/Telegram.Bots/issues/9						
+						
+						
+await _telegramBotClient.SendPhotoAsync(message.Chat.Id, new InputOnLineFile(ms, "image.png"));
+
+https://whatsmate.github.io/2022-06-17-send-telegram-image-c-sharp-dot-net/
+
+Bot.SendPhotoAsync(Chatid ,  new FileToSend(FileName,Streaminput),Caption);
+
+https://tlgrm.ru/docs/bots/api
+https://core.telegram.org/bots/samples
+https://core.telegram.org/bots/webapps
+
+https://telegram-bot-sdk.readme.io/reference/sendphoto
+
+https://dev.to/rizkyrajitha/sending-images-and-more-with-telegram-bot-4c0h
+
+https://rdrr.io/cran/telegram.bot/man/sendPhoto.html
+
+https://coderoad.ru/33757887/%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D1%8C%D1%82%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-telegram-bot
+https://coderoad.ru/33757887/%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D1%8C%D1%82%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-telegram-bot
+
+
+
+
+
+
+
+
+

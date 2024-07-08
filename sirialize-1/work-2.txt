@@ -1,0 +1,15 @@
+
+https://makolyte.com/csharp-deserialize-a-json-array-to-a-list/
+
+https://stackoverflow.com/questions/34103498/how-do-i-deserialize-a-json-array-using-newtonsoft-json
+
+https://www.iditect.com/faq/csharp/converting-array-of-string-to-json-object-in-c.html
+
+https://www.newtonsoft.com/json/help/html/SerializationGuide.htm
+
+https://habr.com/ru/articles/481514/
+Работа с библиотекой Newtonsoft.Json на реальном примере. Часть 1
+
+
+
+
